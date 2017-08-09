@@ -1,15 +1,26 @@
 body {
-  background: #A4BEDB;
-  color: #701215;
-  font-family: 'Roboto', sans-serif;
+  background: #F1FAEE;
+  color: #E63946;
 }
 
-.headline {
-  font-family: 'Inconsolata', monospace;
-  color: #701215;
-  font-size: 76px;
-  margin-top: 50px;
+.my_container {
+  background-color: #A8DADC;
+  padding: 50px;
 }
+
+
+.headline {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.my-button {
+  font-size: 20px;
+  height: 60px;
+  margin-top: 50px;
+  margin-right: 20px;
+/*  background-color: #457B9D;
+*/}
 
 .bio {
   font-size: 16px;
