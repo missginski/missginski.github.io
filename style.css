@@ -1,25 +1,23 @@
 body {
-  background: #BFD1E5;
-  font-family: 'Inconsolata', monospace;
-  color: #542344;
-}
-
-header {
-
+  background: #A4BEDB;
+  color: #701215;
+  font-family: 'Roboto', sans-serif;
 }
 
 .headline {
-  color: #542344;
+  font-family: 'Inconsolata', monospace;
+  color: #701215;
   font-size: 76px;
-  font-weight: bold;
+  margin-top: 50px;
 }
 
+.bio {
+  font-size: 16px;
+  width: 500px;
+}
 
-.nav a {
-  color: #542344;
-  font-size: 32px;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 0 10px;
+/** bg-image?? **/
+
+.avatar {
+  width: 300px;
 }
