@@ -1,17 +1,23 @@
 body {
-  background: #BBDAEA;
+  background: #BFD1E5;
   font-family: 'Inconsolata', monospace;
-  color: #4C091D;
+  color: #542344;
+}
+
+header {
+
 }
 
 .headline {
-  color: #4C091D;
-  font-size: 54px;
+  color: #542344;
+  font-size: 76px;
+  font-weight: bold;
 }
 
+
 .nav a {
-  color: #4C091D;
-  font-size: 24px;
+  color: #542344;
+  font-size: 32px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
