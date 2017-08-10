@@ -1,47 +1,61 @@
 body {
-  background: #F1FAEE;
+  background: #A8DADC;
   color: #A82A33;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
-.my_container {
-  background-color: #A8DADC;
-  padding: 50px;
-}
-
-.top {
-  padding-bottom: 80px;
-}
-
-.headline {
+h1 {
   font-weight: bold;
-  font-size: 72px;
+  font-size: 86px;
+  margin: 0;
 }
+/*
+.third {
+  padding: 50px 0;
+  overflow: hidden;
+}*/
+
+/*.content {
+  margin: 0;
+}*/
+
+/*.middle {
+  padding: 20px;
+  margin: 50px;
+}*/
+
+.bottom {
+  background: #457B9D;
+/*  width: 100%;
+*//*  margin: 0;
+*/}
 
 .my-button {
   font-size: 20px;
   height: 60px;
-  margin-top: 50px;
-  margin-right: 20px;
+/*  margin-top: 20%;
+  margin-right: 5%;*/
   background-color: #457B9D;
 }
 
 .bio {
-  font-size: 16px;
   width: 500px;
-  padding: 20px;
-}
+/*  padding: 20px;
+*/}
 
 /** bg-image?? **/
 
 .avatar {
   width: 300px;
-  margin: 30px 50px;
-}
+/*  margin: 30px 50px;
+*/}
 
 .middle {
   background-color: #B2DBBF;
-  margin: 20px 0;
-}
+/*  margin: 20px 0;
+*/}
 
 .project-image {
   width: 400px;
@@ -53,6 +67,4 @@ body {
   margin: 5px;
   color: #A82A33;
 }
-
-
 
