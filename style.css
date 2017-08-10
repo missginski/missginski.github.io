@@ -40,11 +40,18 @@ body {
 
 .middle {
   background-color: #B2DBBF;
-  padding: 20px;
+  margin: 20px 0;
 }
 
 .project-image {
   width: 400px;
+  padding: 0;
+}
+
+.social_icon {
+  width: 30px;
+  margin: 5px;
+  color: #A82A33;
 }
 
 
