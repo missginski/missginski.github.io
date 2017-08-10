@@ -1,6 +1,6 @@
 body {
   background: #F1FAEE;
-  color: #E63946;
+  color: #A82A33;
 }
 
 .my_container {
@@ -8,6 +8,9 @@ body {
   padding: 50px;
 }
 
+.top {
+  padding-bottom: 80px;
+}
 
 .headline {
   font-weight: bold;
@@ -19,16 +22,30 @@ body {
   height: 60px;
   margin-top: 50px;
   margin-right: 20px;
-/*  background-color: #457B9D;
-*/}
+  background-color: #457B9D;
+}
 
 .bio {
   font-size: 16px;
   width: 500px;
+  padding: 20px;
 }
 
 /** bg-image?? **/
 
 .avatar {
   width: 300px;
+  margin: 30px 50px;
 }
+
+.middle {
+  background-color: #B2DBBF;
+  padding: 20px;
+}
+
+.project-image {
+  width: 400px;
+}
+
+
+
