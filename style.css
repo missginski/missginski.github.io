@@ -11,6 +11,16 @@ h1 {
   font-size: 86px;
   margin: 0;
 }
+
+.button_wrapper {
+  padding: 50px;
+  overflow: hidden;
+}
+
+.headline_wrapper {
+
+}
+
 /*
 .third {
   padding: 50px 0;
@@ -35,8 +45,6 @@ h1 {
 .my-button {
   font-size: 20px;
   height: 60px;
-/*  margin-top: 20%;
-  margin-right: 5%;*/
   background-color: #457B9D;
 }
 
