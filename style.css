@@ -1,4 +1,4 @@
-body {
+/*body {
   background: #A8DADC;
   color: #A82A33;
   font-size: 18px;
@@ -17,62 +17,11 @@ h1 {
   overflow: hidden;
 }
 
-.headline_wrapper {
-
-}
-
-/*
-.third {
-  padding: 50px 0;
-  overflow: hidden;
-}*/
-
-/*.content {
-  margin: 0;
-}*/
-
-/*.middle {
-  padding: 20px;
-  margin: 50px;
-}*/
-
-.bottom {
-  background: #457B9D;
-/*  width: 100%;
-*//*  margin: 0;
-*/}
-
 .my-button {
   font-size: 20px;
   height: 60px;
   background-color: #457B9D;
 }
 
-.bio {
-  width: 500px;
-/*  padding: 20px;
-*/}
 
-/** bg-image?? **/
-
-.avatar {
-  width: 300px;
-/*  margin: 30px 50px;
-*/}
-
-.middle {
-  background-color: #B2DBBF;
-/*  margin: 20px 0;
-*/}
-
-.project-image {
-  width: 400px;
-  padding: 0;
-}
-
-.social_icon {
-  width: 30px;
-  margin: 5px;
-  color: #A82A33;
-}
-
+*/
