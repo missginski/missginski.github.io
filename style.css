@@ -1,27 +1,14 @@
-/*body {
-  background: #A8DADC;
-  color: #A82A33;
+body {
+  background: #647F80;
+  color: #EDD130;
   font-size: 18px;
-  margin: 0;
-  padding: 0;
+  font-family: 'Source Code Pro'
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 86px;
-  margin: 0;
-}
-
-.button_wrapper {
-  padding: 50px;
-  overflow: hidden;
-}
-
-.my-button {
-  font-size: 20px;
-  height: 60px;
-  background-color: #457B9D;
+.main {
+  max-width: 700px;
 }
 
 
-*/
+
+
