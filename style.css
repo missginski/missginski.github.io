@@ -4,18 +4,48 @@ body {
 }
 
 p {
-  font-family: 'Source Code Pro';
-  font-size: 16px;
+  /*font-family: 'Source Code Pro';*/
+  font-size: 18px;
   color: #042A2B;
 }
 
 .main {
   max-width: 700px;
+  margin: 0 25px;
+}
+
+.about-me {
+  margin: 200px 0;
+}
+
+.project-wrapper {
+  margin: 200px 0;
+}
+
+.title {
+  color: #042A2B;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.tech {
+  font-size: 22px;
 }
 
 .project-img {
+  background-size: 500px;
+  height: 425px;
+  width: 500px;
+}
+
+.cards-img {
   background-image: url("images/war-cards.png");
-  background-size: 400px;
-  height: 345px;
-  width: 400px;
+}
+
+.drop {
+  background-image: url("images/drop-shop.png");
+}
+
+.go-img {
+  background-image: url("images/go.png");
 }
