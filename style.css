@@ -9,17 +9,18 @@ p {
 }
 
 .main {
-  max-width: 700px;
-  margin: 0 25px;
+  max-width: 750px;
+  margin: 450px 50px;
 }
 
 .about-me {
-  margin-top: 300px;
-  font-size: 20px;
+  margin-bottom: 200px;
+  font-size: 18px;
 }
 
 .project-wrapper {
   margin: 100px 0;
+  font-size: 18px;
 }
 
 .title {
@@ -34,7 +35,7 @@ p {
 }
 
 .tech-item {
-  margin-bottom: 3px;
+  margin-bottom: 0;
 }
 
 .project-img {
