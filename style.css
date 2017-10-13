@@ -5,17 +5,15 @@ body {
 p {
   color: #2F2F2F;
   font-family: 'PT Mono', monospace;
+}
 
+h3 {
+  font-size: 20px;
 }
 
 .main {
   max-width: 700px;
-  margin: 300px 50px;
-  font-family: 'Catamaran', sans-serif;
-
-}
-
-h1 {
+  margin: 250px 50px;
   font-family: 'Rubik', sans-serif;
 
 }
@@ -27,7 +25,7 @@ h1 {
 
 .project-wrapper {
   margin: 100px 0;
-  font-size: 18px;
+  /*font-size: 18px;*/
 }
 
 .title {
