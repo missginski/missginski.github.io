@@ -35,17 +35,13 @@ h3 {
 }
 
 .tech-list {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 10px;
-}
-
-.tech-item {
-  margin-bottom: 0;
 }
 
 .project-img {
   background-size: 500px;
-  height: 425px;
+  height: 385px;
   width: 500px;
 }
 
