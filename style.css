@@ -15,7 +15,10 @@ h3 {
   max-width: 700px;
   margin: 250px 50px;
   font-family: 'Rubik', sans-serif;
+}
 
+.my-button {
+  background-color: #F9F9F9;
 }
 
 .about-me {
@@ -55,8 +58,4 @@ h3 {
 
 .go-img {
   background-image: url("images/go.png");
-}
-
-.my-button {
-  background-color: #F9F9F9;
 }
