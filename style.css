@@ -44,12 +44,12 @@ h3 {
 
 .project-img {
   background-size: 500px;
-  height: 385px;
+  height: 370px;
   width: 500px;
 }
 
 .cards-img {
-  background-image: url("images/war-cards.png");
+  background-image: url("images/cards.gif");
 }
 
 .drop {
