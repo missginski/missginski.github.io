@@ -22,6 +22,10 @@ p {
   font-size: 18px;
 }
 
+.small_text {
+  margin-top: 200px;
+}
+
 .project-wrapper {
   margin: 100px 0;
 }
@@ -44,7 +48,7 @@ h3 {
   background-size: 650px;
   height: 480px;
   width: 650px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .cards-img {
