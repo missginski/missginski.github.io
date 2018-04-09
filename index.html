@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90359113-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-90359113-2');
-  </script>
-
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Kristyn Ginski</title>
+	<meta name="viewport" content="initial-scale=1">
+	<title>Kristyn Ginski</title>
   <link href="https://fonts.googleapis.com/css?family=Magra|PT+Mono|Rambla|Rubik" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="skeleton.css">
 <body>
@@ -35,17 +26,20 @@
     <p class="small_text">Check out some of my work</p>
     <div class="work-wrapper">
 
-      <div class="project-wrapper">
+      <!-- <div class="project-wrapper">
         <h2 class="title">Sketch to HTML Conversion</h2>
         <p>
           There are pages, all built using Bootstrap. The designs I used were provided as free resoures and are all referenced accordingly below.
           All references are included along with additional details for each project.
         </p>
-      </div>
+      </div> -->
 
 			<div class="project-wrapper">
 				<h2 class="title">Drop Shop</h2>
-				<div class="project-img drop"></div>
+        <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png">
+          <div class="project-img drop"></div>
+        </a>
+
 				<div class="description">
 					<p>A fun take on a weather app, that uses the daily forecast to curate outfit suggestions. I built a database to act as a go between for a weather and a shopping API.</p>
 					<h3 class="tech-list">Built Using: </h3>
@@ -58,7 +52,10 @@
 
 			<div class="project-wrapper">
 				<h2 class="title">What’s Going On - group project</h2>
-				<div class="project-img go-img"></div>
+        <a href="https://s3.amazonaws.com/kg-portfolio/images/go.png">
+          <div class="project-img go-img"></div>
+        </a>
+
 				<div class="description">
 					<p>A resource for people who want to learn about causes they can be a part of, charities to support, and events to attend. My contribution was a news feed of specific topics that users and can favorite and stay informed.</p>
           <h3 class="tech-list">Built Using: </h3>
@@ -71,7 +68,11 @@
 
       <div class="project-wrapper">
         <h2 class="title">WAR</h2>
-        <div class="project-img cards-img"></div>
+
+        <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png">
+          <div class="project-img cards-img"></div>
+        </a>
+
         <div class="description">
           <p>I made this card game in JavaScript, with some simple styling, as practice with front end principles and techniques.</p>
           <p><a href="https://github.com/missginski/war_of_cards" target="_blank">View on GitHub</a></p>
