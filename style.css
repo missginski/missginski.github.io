@@ -1,13 +1,18 @@
 body {
   background: #DDFAFF;
-}
-.main {
-  color: #2F2F2F;
   font-family: 'Rubik', sans-serif;
-  margin: 250px 3.125rem;
-  /*margin: 250px 50px 0 50px;*/
+  color: #2F2F2F;
+}
+.top {
+  margin-top: 16rem;
+}
 
+.main {
+  margin: 250px 50px 0 50px;
   /*max-width: 700px;*/
+}
+h1 {
+  font-family: 'Rubik', sans-serif;
 }
 p {
   font-family: 'PT Mono', monospace;
@@ -15,41 +20,49 @@ p {
 .my-button {
   background-color: #F9F9F9;
 }
-.about-me,
+/*.about-me,
 .contact {
   margin-bottom: 75px;
   font-size: 18px;
-}
+}*/
 .small_text {
   margin-top: 200px;
 }
 .project-wrapper {
   margin: 100px 0;
 }
+
 .title {
   font-size: 32px;
   margin-bottom: 0;
+  font-family: 'Rubik', sans-serif;
 }
+
 .tech-list {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
 h3 {
   font-size: 20px;
   margin-bottom: 0;
 }
+
 .project-img {
   background-size: 650px;
   height: 480px;
   width: 650px;
   margin: 20px 0;
 }
+
 .cards-img {
   background-image: url("images/cards.gif");
 }
+
 .drop {
   background-image: url("images/drop-shop.png");
 }
+
 .go-img {
   background-image: url("images/go.png");
 }
