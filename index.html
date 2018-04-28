@@ -5,16 +5,16 @@
 	<meta name="viewport" content="initial-scale=1">
 	<title>Kristyn Ginski</title>
   <link href="https://fonts.googleapis.com/css?family=Magra|PT+Mono|Rambla|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div class="container">
+
     <section class="section hero">
       <div class="row">
-        <div class="two-thirds column about-me">
-          <h1 class="hero-heading">I'm Kristyn, I'm a developer.</h1>
+        <div class="two-thirds column">
+          <h1 class="">I'm Kristyn, I'm a developer.</h1>
           <p class="hero-description">I currently live in New York. I like problem solving and writing clean code. I think programmers can change the world, so let's make it good.</p>
           <div class="contact btn-grp">
             <a class="button my-button" href="mailto:missginski@gmail.com">Email</a>
@@ -28,61 +28,78 @@
       </div>
     </section>
 
-
-
     <!-- <p class="small_text">I've been coding for a little over a year now, and I really love the work. I'm looking to work on a team, where I can get feedback and direction, and to become the best developer I can be. Check out some of my work</p> -->
 
-    <!-- <div class="work-wrapper"> -->
-
-
-      <!-- <div class="work-wrapper-top py-5">
-        <div class="container">
-
-          <h2 class="title">Sketch to HTML</h2> -->
-          <!-- <p>
-            - Built with Bootstrap, for quick prototyping of responsive ready layouts<br />
-            - Getting aquainted with Front-end frameworks best practices<br />
-            - Designs provided as free resoures from <a href="www.sketchappsources.com">Sketch App Resources</a> .
-          </p> -->
-
-
-          <!-- <div class="row">
-
-            <div class="col-md-4">
-              <div class="project-small">
-                <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
-                  <h3 class="">Drop Theme</h3>
-                </a>
-                <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
-                  <img src="images/drop-theme-screen.png" class="img-fluid" />
-                </a>
-                <div class="description">
-                  <p>A fun take on a weather app, that uses the daily forecast to curate outfit suggestions. I built a database to act as a go between for a weather and a shopping API.</p>
-                  <h3 class="tech-list">Built Using: </h3>
-                  <p>Express.js, PG-Promise, Bcrypt,
-                    <a href="https://openweathermap.org/">Open Weather Map</a>,
-                    <a href="https://www.shopstylecollective.com/api/overview">Shopstyle Collective API</a></p>
-                  <p><a href="https://github.com/missginski/drop-shop" target="_blank">View on GitHub</a></p>
-                </div>
-              </div>
-
+    <section class="section work-wrapper-top">
+      <h2 class="section-title">Sketch to HTML</h2>
+      <p>
+        - Example mockups built with html, css, and jquery<br />
+        - Built with Bootstrap, tried to use as much default styling as possible<br />
+        - Imported the Sketch file into Zeplin for fine tuning CSS values <br />
+        - Designs are free resoures found at <a href="www.sketchappsources.com">Sketch App Resources</a>
+      </p>
+      <div class="row">
+        <div class="one-third column">
+          <div class="project-small">
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <h3 class="small-title">Drop Theme</h3>
+            </a>
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <img src="images/drop-theme-screen.png" class="img-small" />
+            </a>
+            <div class="description">
+              <p>
+                - Added custom styling, and some quick jQuery for image gallery tabs<br />
+                - Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
+              </p>
             </div>
- -->
-
-
-
-<!--
           </div>
         </div>
-      </div> -->
+        <div class="one-third column">
+          <div class="project-small">
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <h3 class="small-title">Drop Theme</h3>
+            </a>
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <img src="images/drop-theme-screen.png" class="img-small" />
+            </a>
+            <div class="description">
+              <p>
+                - Added custom styling, and some quick jQuery for image gallery tabs<br />
+                - Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-third column">
+          <div class="project-small">
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <h3 class="small-title">Drop Theme</h3>
+            </a>
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <img src="images/drop-theme-screen.png" class="img-small" />
+            </a>
+            <div class="description">
+              <p>
+                - Added custom styling, and some quick jQuery for image gallery tabs<br />
+                - Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
 
 
 			<div class="project-wrapper">
-				<h2 class="title">Drop Shop</h2>
+				<h2 class="title">Drop Shop - express app</h2>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png">
-          <div class="project-img drop"></div>
+          <!-- <div class="project-img drop"></div> -->
+          <img class="app-img" src="images/drop-shop.png" />
         </a>
-
 				<div class="description">
 					<p>A fun take on a weather app, that uses the daily forecast to curate outfit suggestions. I built a database to act as a go between for a weather and a shopping API.</p>
 					<h3 class="tech-list">Built Using: </h3>
@@ -96,9 +113,9 @@
 			<div class="project-wrapper">
 				<h2 class="title">What’s Going On - group project</h2>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/go.png">
-          <div class="project-img go-img"></div>
+          <!-- <div class="project-img go-img"></div> -->
+          <img class="app-img" src="images/go.png" />
         </a>
-
 				<div class="description">
 					<p>A resource for people who want to learn about causes they can be a part of, charities to support, and events to attend. My contribution was a news feed of specific topics that users and can favorite and stay informed.</p>
           <h3 class="tech-list">Built Using: </h3>
@@ -111,7 +128,10 @@
 
       <div class="project-wrapper">
         <h2 class="title">WAR</h2>
-
+        <a href="https://s3.amazonaws.com/kg-portfolio/images/cards.gif">
+          <!-- <div class="project-img go-img"></div> -->
+          <img class="app-img" src="images/cards.gif" />
+        </a>
         <div class="description">
           <p>I made this card game in JavaScript, with some simple styling, as practice with front end principles a nd techniques.</p>
           <p><a href="https://github.com/missginski/war_of_cards" target="_blank">View on GitHub</a></p>
@@ -129,5 +149,6 @@
 
 
 	</div>
+
 </body>
 </html>

@@ -11,7 +11,9 @@ body {
 .section-description {
   margin-bottom: 1.2rem;
 }
-
+.hero-heading {
+  font-family: 'Rubik', sans-serif;
+}
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
@@ -22,18 +24,11 @@ body {
     text-align: left;
     height: 165px;
   }
-  .hero-heading {
-    font-size: 2.4rem;
-  }
 }
-
 /* Bigger than 750 */
 @media (min-width: 750px) {
   .hero {
     height: 190px;
-  }
-  .hero-heading {
-    font-size: 2.6rem;
   }
   .section {
     padding: 14rem 0 15rem;
@@ -56,32 +51,43 @@ body {
   .hero {
     padding: 22rem 0;
   }
-  .hero-heading {
-    font-size: 3.0rem;
-  }
-}
-
-
-
-
-
-.top {
-  margin: 16rem 3.125rem;
-}
-
-.main {
-  margin: 250px 50px 0 50px;
-  /*max-width: 700px;*/
-}
-h1 {
-  font-family: 'Rubik', sans-serif;
 }
 p {
   font-family: 'PT Mono', monospace;
 }
 .my-button {
   background-color: #F9F9F9;
+  margin-right: 1.5rem;
 }
+
+.app-img {
+  max-width: 650px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 3.25rem;
+}
+.small-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.img-small {
+  max-width: 320px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*.about-me,
 .contact {
   margin-bottom: 75px;
@@ -95,9 +101,9 @@ p {
 }
 
 .title {
-  font-size: 32px;
-  margin-bottom: 0;
-  font-family: 'Rubik', sans-serif;
+  /*font-size: 32px;*/
+  /*margin-bottom: 0;
+  font-family: 'Rubik', sans-serif;*/
 }
 
 .tech-list {
@@ -106,7 +112,7 @@ p {
 }
 
 h3 {
-  font-size: 20px;
+  /*font-size: 20px;*/
   margin-bottom: 0;
 }
 
@@ -117,14 +123,14 @@ h3 {
   margin: 20px 0;
 }
 
-.cards-img {
+/*.cards-img {
   background-image: url("images/cards.gif");
-}
+}*/
 
-.drop {
+/*.drop {
   background-image: url("images/drop-shop.png");
-}
+}*/
 
-.go-img {
+/*.go-img {
   background-image: url("images/go.png");
-}
+}*/
