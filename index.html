@@ -5,6 +5,7 @@
 	<meta name="viewport" content="initial-scale=1">
 	<title>Kristyn Ginski</title>
   <link href="https://fonts.googleapis.com/css?family=Magra|PT+Mono|Rambla|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="skeleton.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +14,7 @@
 
     <section class="section hero">
       <div class="row">
-        <div class="two-thirds column">
+        <div class="nine columns">
           <h1 class="">I'm Kristyn, I'm a developer.</h1>
           <p class="hero-description">I currently live in New York. I like problem solving and writing clean code. I think programmers can change the world, so let's make it good.</p>
           <div class="contact btn-grp">
@@ -22,22 +23,29 @@
             <a class="button my-button" href="https://s3.amazonaws.com/kg-portfolio/images/KGinski-Resume-2018.pdf" target="_blank">resume</a>
           </div>
         </div>
-        <div class="one-third column">
+        <div class="three columns">
           <!-- image of me -->
         </div>
       </div>
     </section>
-
     <!-- <p class="small_text">I've been coding for a little over a year now, and I really love the work. I'm looking to work on a team, where I can get feedback and direction, and to become the best developer I can be. Check out some of my work</p> -->
 
     <section class="section work-wrapper-top">
       <h2 class="section-title">Sketch to HTML</h2>
-      <p>
-        - Example mockups built with html, css, and jquery<br />
-        - Built with Bootstrap, tried to use as much default styling as possible<br />
-        - Imported the Sketch file into Zeplin for fine tuning CSS values <br />
-        - Designs are free resoures found at <a href="www.sketchappsources.com">Sketch App Resources</a>
-      </p>
+      <ul class="sketch-list">
+        <li>
+          Example mockups built(by me obvy) with HTML, CSS, and Jquery
+        </li>
+        <li>
+          Built with Bootstrap; tried to use as much default styling as possible for fast prototyping
+        </li>
+        <li>
+          Imported Sketch files into Zeplin for fine tuning CSS values
+        </li>
+        <li>
+          Designs are free resoures found at <a href="www.sketchappsources.com">Sketch App Resources</a>
+        </li>
+      </ul>
       <div class="row">
         <div class="one-third column">
           <div class="project-small">
@@ -48,10 +56,34 @@
               <img src="images/drop-theme-screen.png" class="img-small" />
             </a>
             <div class="description">
-              <p>
-                - Added custom styling, and some quick jQuery for image gallery tabs<br />
-                - Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
-              </p>
+              <ul>
+                <li>
+                  Added custom styling, and some quick jQuery for image gallery tabs
+                </li>
+                <li>
+                  Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="one-third column">
+          <div class="project-small">
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <h3 class="small-title">Dreamshare</h3>
+            </a>
+            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
+              <img src="images/dreamshare-screen.jpg" class="img-small" />
+            </a>
+            <div class="description">
+              <ul>
+                <li>
+                  Added custom styling, and some quick jQuery for image gallery tabs
+                </li>
+                <li>
+                  designed by <a href="https://www.sketchappsources.com/free-source/1882-responsive-landing-page-template-sketch-freebie-resource.html">Dmitry Kustov</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -64,38 +96,23 @@
               <img src="images/drop-theme-screen.png" class="img-small" />
             </a>
             <div class="description">
-              <p>
-                - Added custom styling, and some quick jQuery for image gallery tabs<br />
-                - Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
-              </p>
+              <ul>
+                <li>
+                  Added custom styling, and some quick jQuery for image gallery tabs
+                </li>
+                <li>
+                  Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="one-third column">
-          <div class="project-small">
-            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
-              <h3 class="small-title">Drop Theme</h3>
-            </a>
-            <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/">
-              <img src="images/drop-theme-screen.png" class="img-small" />
-            </a>
-            <div class="description">
-              <p>
-                - Added custom styling, and some quick jQuery for image gallery tabs<br />
-                - Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-
       </div>
     </section>
 
 
 			<div class="project-wrapper">
-				<h2 class="title">Drop Shop - express app</h2>
+				<h2 class="section-title">Dropshop - express app</h2>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png">
           <!-- <div class="project-img drop"></div> -->
           <img class="app-img" src="images/drop-shop.png" />
@@ -111,7 +128,7 @@
 			</div>
 
 			<div class="project-wrapper">
-				<h2 class="title">What’s Going On - group project</h2>
+				<h2 class="section-title">What’s Going On -- rails app - group project</h2>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/go.png">
           <!-- <div class="project-img go-img"></div> -->
           <img class="app-img" src="images/go.png" />
@@ -127,24 +144,21 @@
 			</div>
 
       <div class="project-wrapper">
-        <h2 class="title">WAR</h2>
+        <h2 class="section-title">WAR -- javascript game</h2>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/cards.gif">
           <!-- <div class="project-img go-img"></div> -->
           <img class="app-img" src="images/cards.gif" />
         </a>
         <div class="description">
-          <p>I made this card game in JavaScript, with some simple styling, as practice with front end principles a nd techniques.</p>
+          <p>I made this card game in JavaScript, with some simple styling, as practice with front end principles and techniques.</p>
           <p><a href="https://github.com/missginski/war_of_cards" target="_blank">View on GitHub</a></p>
         </div>
       </div>
 
-      <div class="contact">
-        <p>Get in touch:
-          <button class="my-button"><a href="mailto:missginski@gmail.com">Email</a></button>
-          <button class="my-button"><a href="https://github.com/missginski" target="_blank">github</a></button>
-          <!-- <button class="my-button"><a href="https://docs.google.com/document/d/1UD7mc2qJk1I65IvOQlJPN5KhaDroZK-Jga7vPMH39-U/edit?usp=sharing" target="_blank">resume</a></button> -->
-          <button class="my-button"><a href="https://s3.amazonaws.com/kg-portfolio/images/KGinski-Resume-2018.pdf" target="_blank">resume</a></button>
-        </p>
+      <div class="contact btn-grp">
+        <a class="button my-button" href="mailto:missginski@gmail.com">Email</a>
+        <a class="button my-button" href="https://github.com/missginski" target="_blank">github</a>
+        <a class="button my-button" href="https://s3.amazonaws.com/kg-portfolio/images/KGinski-Resume-2018.pdf" target="_blank">resume</a>
       </div>
 
 

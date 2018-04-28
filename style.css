@@ -7,6 +7,9 @@ body {
   padding: 8rem 0 7rem;
   /*text-align: center;*/
 }
+li {
+  text-align: left;
+}
 .section-heading,
 .section-description {
   margin-bottom: 1.2rem;
@@ -52,12 +55,15 @@ body {
     padding: 22rem 0;
   }
 }
-p {
+p, ul {
   font-family: 'PT Mono', monospace;
 }
 .my-button {
   background-color: #F9F9F9;
   margin-right: 1.5rem;
+}
+.sketch-list {
+  margin-bottom: 4rem;
 }
 
 .app-img {
@@ -70,13 +76,22 @@ p {
   font-size: 3.25rem;
 }
 .small-title {
-  font-size: 2.5rem;
+  font-size: 2.275rem;
   margin-bottom: 1.5rem;
 }
 .img-small {
-  max-width: 320px;
+  max-width: 280px;
   height: auto;
 }
+.hero-description {
+  font-size: 1.8rem;
+}
+.project-small {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
 
 
 
@@ -99,38 +114,8 @@ p {
 .project-wrapper {
   margin: 100px 0;
 }
-
 .title {
   /*font-size: 32px;*/
   /*margin-bottom: 0;
   font-family: 'Rubik', sans-serif;*/
 }
-
-.tech-list {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-h3 {
-  /*font-size: 20px;*/
-  margin-bottom: 0;
-}
-
-.project-img {
-  background-size: 650px;
-  height: 480px;
-  width: 650px;
-  margin: 20px 0;
-}
-
-/*.cards-img {
-  background-image: url("images/cards.gif");
-}*/
-
-/*.drop {
-  background-image: url("images/drop-shop.png");
-}*/
-
-/*.go-img {
-  background-image: url("images/go.png");
-}*/
