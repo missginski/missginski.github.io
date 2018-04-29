@@ -3,6 +3,9 @@ body {
   font-family: 'Rubik', sans-serif;
   color: #2F2F2F;
 }
+.container {
+  margin: auto;
+}
 .section {
   padding: 8rem 0 7rem;
   /*text-align: center;*/
