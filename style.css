@@ -1,7 +1,8 @@
 body {
   background: #DDFAFF;
   font-family: 'Rubik', sans-serif;
-  color: #2F2F2F;
+  /*color: #2F2F2F;*/
+  padding: 4.5rem 0;
 }
 .section {
   padding: 7rem 0;
@@ -21,7 +22,6 @@ body {
   }
   .project-wrapper {
     margin: auto;
-    /*max-width: 620px;*/
   }
   .one-third {
     margin: 3rem auto;
@@ -73,25 +73,18 @@ p, ul {
 }
 .img-small {
   max-width: 100%;
-  /*max-width: 280px;*/
   height: auto;
 }
 .hero-description {
   font-size: 1.8rem;
 }
 .project-small {
-  /*max-width: 100%;*/
-  /*margin: auto;*/
   text-align: center;
 }
 .description li {
   text-align: left;
 }
-/*.one-third {
-  margin: 2rem 1rem;
-}*/
 .app-img {
-  /*max-width: 350px;*/
   max-width: 100%;
   height: auto;
   margin: 20px 0;
@@ -104,52 +97,3 @@ p, ul {
   margin: 10rem 0;
   max-width: 720px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.about-me,
-.contact {
-  margin-bottom: 75px;
-  font-size: 18px;
-}*/
-.small_text {
-  margin-top: 200px;
-}
-
-.title {
-  /*font-size: 32px;*/
-  /*margin-bottom: 0;
-  font-family: 'Rubik', sans-serif;*/
-}
-/*.sketch-row {
-  margin-left: auto;
-  margin-right: auto;
-  width:  100%;
-}*/
-/*.section-heading,
-.section-description {
-  margin-bottom: 1.2rem;
-}*/
-/*.section-description {
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}*/
