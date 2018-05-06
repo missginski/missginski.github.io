@@ -44,7 +44,6 @@
         </ul>
       </div>
 
-
       <div class="row sketch-row">
         <div class="one-third column">
           <div class="project-small">
@@ -54,10 +53,10 @@
             </a>
             <ul class="description">
               <li>
-                Uses <a href="rss2json.com">rss2json API</a> to combine multiple RSS feeds
+                <a href="rss2json.com">rss2json API</a> to incorporate RSS feeds
               </li>
               <li>
-                Mustache templates to render dynamic content from API
+                Mustache templates to render dynamic content to HTML
               </li>
               <li>
                 Designed by: <a href="https://freebiesbug.com/sketch-freebies/the-siren/" target="_blank">Kulikov Ilya</a>
@@ -74,7 +73,10 @@
             </a>
             <ul class="description">
               <li>
-                Used jQuery for image gallery tabs, along with more custom css
+                Used jQuery for image gallery tabs
+              </li>
+              <li>
+                Custom styling with CSS
               </li>
               <li>
                 Designed by: <a href="https://www.sketchappsources.com/free-source/1473-single-page-web-template-sketch-freebie-resource.html">Santosh Anand</a>
@@ -91,7 +93,7 @@
             </a>
             <ul class="description">
               <li>
-                Added custom css, used mostly default bootstrap styling
+                Mostly default bootstrap styling, with some custom css
               </li>
               <li>
                 Designed by: <a href="https://www.sketchappsources.com/free-source/1882-responsive-landing-page-template-sketch-freebie-resource.html" target="_blank">Dmitry Kustov</a>
@@ -102,43 +104,79 @@
       </div>
     </section>
 
-			<div class="project-wrapper">
-				<h2 class="section-title">Dropshop - Express App</h2>
-        <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png">
-          <img class="app-img" src="images/drop-shop.png" />
-        </a>
-				<div class="description">
-					<p>A fun take on a weather app, that uses the daily forecast to curate outfit suggestions. I built a database to act as a go between for a weather and a shopping API.</p>
-					<h3 class="tech-list">Built Using: </h3>
-          <p>Express.js, PG-Promise, Bcrypt,
-            <a href="https://openweathermap.org/">Open Weather Map</a>,
-            <a href="https://www.shopstylecollective.com/api/overview">Shopstyle Collective API</a></p>
-					<p><a href="https://github.com/missginski/drop-shop" target="_blank">View on GitHub</a></p>
-				</div>
-			</div>
+		<div class="project-wrapper">
+			<h2 class="section-title">Dropshop - Express App</h2>
+      <p>A take on a weather app, that uses the daily forecast to curate outfit suggestions for the day</p>
+
+      <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png">
+        <img class="app-img" src="images/drop-shop.png" />
+      </a>
+      <!-- <h3 class="tech-list">Built Using: </h3> -->
+      <ul class="description">
+        <li>
+          Express server handles website routing, pSQL handles database
+        </li>
+        <li>
+          Integrates APIs: <a href="https://openweathermap.org/">Open Weather Map</a>,
+          <a href="https://www.shopstylecollective.com/api/overview">Shopstyle Collective</a>
+        </li>
+        <li>
+          User Authentication with Bcrypt encryption
+        </li>
+      </ul>
+      <p>
+        <a href="https://github.com/missginski/drop-shop" target="_blank">View on GitHub</a>
+      </p>
+			<!-- <div class="description">
+				<p>A fun take on a weather app, that uses the daily forecast to curate outfit suggestions. I built a database to act as a go between for a weather and a shopping API.</p>
+				<h3 class="tech-list">Built Using: </h3>
+        <p>Express.js, PG-Promise, Bcrypt,
+          <a href="https://openweathermap.org/">Open Weather Map</a>,
+          <a href="https://www.shopstylecollective.com/api/overview">Shopstyle Collective API</a></p>
+			</div> -->
+		</div>
 
 			<div class="project-wrapper">
 				<h2 class="section-title">What’s Going On -- Rails App - group project</h2>
+        <p>A Resource for people who want to learn about causes they can be a part of, charities to support, and events to attend</p>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/go.png">
           <img class="app-img" src="images/go.png" />
         </a>
-				<div class="description">
+        <!-- <h3 class="tech-list">Built Using: </h3> -->
+        <ul class="description">
+          <li>
+            Choose from list of events provided by <a href="https://api.dosomething.org/register" target="_blank">Do Something.org</a>
+          </li>
+          <li>
+            Add events to calendar with <a href="https://fullcalendar.io/">Full Calendar</a>
+          </li>
+          <li>
+            Favorite categories and articles to stay informed with a live newsfeed provided by <a href="https://www.reddit.com/dev/api/" target="_blank">Reddit</a>
+          </li>
+          <li>
+            User Authentication with Devise
+          </li>
+        </ul>
+        <p>
+          <a href="https://github.com/missginski/whats_going_on" target="_blank">View on GitHub</a>
+        </p>
+				<!-- <div class="description">
 					<p>A resource for people who want to learn about causes they can be a part of, charities to support, and events to attend. My contribution was a news feed of specific topics that users and can favorite and stay informed.</p>
           <h3 class="tech-list">Built Using: </h3>
           <p>Ruby on Rails, Devise,
             <a href="https://www.reddit.com/dev/api/" target="_blank">Reddit API</a>,
-            <a href="https://api.dosomething.org/register" target="_blank">Do Something.org API</a></P>
+            <a href="https://api.dosomething.org/register" target="_blank">Do Something.org API</a></p>
           <p><a href="https://github.com/missginski/whats_going_on" target="_blank">View on GitHub</a></p>
-				</div>
+				</div> -->
 			</div>
 
       <div class="project-wrapper">
         <h2 class="section-title">WAR - Javascript card game</h2>
+        <p>I made this card game in JavaScript, with some simple styling, as practice with front end principles and techniques.</p>
         <a href="https://s3.amazonaws.com/kg-portfolio/images/cards.gif">
           <img class="app-img" src="images/cards.gif" />
         </a>
         <div class="description">
-          <p>I made this card game in JavaScript, with some simple styling, as practice with front end principles and techniques.</p>
           <p><a href="https://github.com/missginski/war_of_cards" target="_blank">View on GitHub</a></p>
         </div>
       </div>
