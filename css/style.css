@@ -1,7 +1,6 @@
 body {
   background: #DDFAFF;
   font-family: 'Rubik', sans-serif;
-  /*color: #2F2F2F;*/
   padding: 4.5rem 0;
 }
 .section {
@@ -11,8 +10,7 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .avatar {
-  max-width: 13rem;
-  /*max-width: 125px;*/
+  max-width: 125px;
   height: auto;
   border-radius: 100%;
 }
