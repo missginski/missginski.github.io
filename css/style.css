@@ -11,8 +11,8 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .avatar {
-  /*max-width: 100%;*/
-  max-width: 175px;
+  max-width: 13rem;
+  /*max-width: 125px;*/
   height: auto;
   border-radius: 100%;
 }
