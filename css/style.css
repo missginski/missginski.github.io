@@ -10,6 +10,12 @@ body {
 .hero-heading {
   font-family: 'Rubik', sans-serif;
 }
+.avatar {
+  /*max-width: 100%;*/
+  max-width: 175px;
+  height: auto;
+  border-radius: 100%;
+}
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
