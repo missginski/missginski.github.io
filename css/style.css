@@ -9,10 +9,16 @@ body {
 .hero-heading {
   font-family: 'Rubik', sans-serif;
 }
+.hero-description {
+  max-width: 840px;
+}
 .avatar {
   max-width: 125px;
   height: auto;
   border-radius: 100%;
+}
+.section-top {
+  margin-top: 5.5rem;
 }
 /* Bigger than 550 */
 @media (min-width: 550px) {
@@ -28,7 +34,7 @@ body {
     margin: auto;
   }
   .one-third {
-    margin: 3rem auto;
+    margin: 3rem .5rem;
   }
 }
 /* Bigger than 750 */
