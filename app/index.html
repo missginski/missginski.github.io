@@ -4,17 +4,18 @@
   <meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1">
 	<title>Kristyn Ginski</title>
-  <link href="https://fonts.googleapis.com/css?family=Magra|PT+Mono|Rambla|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Magra|PT+Mono|Rambla|Rubik" rel="stylesheet"> -->
+  <link rel="stylesheet" href="assets/styles/normalize.css">
+  <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+  <!-- <link rel="stylesheet" href="assets/styles/style.css"> -->
+  <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
 
-  <div class="container">
+  <!-- <div class="container"> -->
     <section class="section hero">
       <div class="row">
-        <img class="img-fluid avatar" src="images/me.png" />
+        <img class="img-fluid avatar" src="assets/images/me.png" />
         <h1 class="">I'm Kristyn, I'm a developer in New York.</h1>
         <p class="hero-description">I like problem solving and writing clean code. I think programmers can change the world, so let's make it good.</p>
         <div class="contact btn-grp">
@@ -25,21 +26,13 @@
       </div>
     </section>
 
-    <!-- <section class="section work-wrapper-top">
-      <div class="row sketch-row">
-
-
-      </div>
-    </section> -->
-
     <div class="project-wrapper">
       <a href="http://infinite-site.s3-website-us-east-1.amazonaws.com/" target="_blank">
         <h2 class="section-title">Infinite Studios</h2>
       </a>
-      <p>Complete Website for a Professional Bay Area Recording Studio</p>
+      <p>Complete Website design and build for a Professional Bay Area Recording Studio</p>
       <a href="http://infinite-site.s3-website-us-east-1.amazonaws.com/" target="_blank">
-        <!-- <img class="app-img" src="images/drop-shop.png" /> -->
-        <img src="images/infinite.png" class="img-small" />
+        <img src="assets/images/infinite.png" class="img-small" />
       </a>
       <ul class="description">
         <li>
@@ -55,10 +48,10 @@
           AWS
         </li>
         <li>
-          Responsive design
+          Gulp
         </li>
         <li>
-          Original Layout and Design
+          SCSS
         </li>
       </ul>
       <p>
@@ -69,12 +62,10 @@
     <div class="project-wrapper">
       <a href="http://siren-homepage.s3-website-us-east-1.amazonaws.com/" target="_blank">
         <h2 class="section-title">The Siren</h2>
-        <!-- <img src="images/thesiren-screen.jpg" class="img-small" /> -->
       </a>
       <p>Sample blog homepage</p>
       <a href="http://siren-homepage.s3-website-us-east-1.amazonaws.com/" target="_blank">
-        <!-- <img class="app-img" src="images/drop-shop.png" /> -->
-        <img src="images/thesiren-screen.jpg" class="img-small" />
+        <img src="assets/images/thesiren-screen.jpg" class="img-small" />
       </a>
       <ul class="description">
         <li>
@@ -107,12 +98,10 @@
     <div class="project-wrapper">
       <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/" target="_blank">
         <h2 class="section-title">Drop Theme</h2>
-        <!-- <img src="images/thesiren-screen.jpg" class="img-small" /> -->
       </a>
       <p>Sample homepage</p>
       <a href="http://sample-landingpage.s3-website-us-east-1.amazonaws.com/" target="_blank">
-        <!-- <img class="app-img" src="images/drop-shop.png" /> -->
-        <img src="images/drop-theme-screen.png" class="img-small" />
+        <img src="assets/images/drop-theme-screen.png" class="img-small" />
       </a>
       <ul class="description">
         <li>
@@ -139,12 +128,10 @@
     <div class="project-wrapper">
       <a href="http://dreams-mockup.s3-website-us-east-1.amazonaws.com/" target="_blank">
         <h2 class="section-title">Dreamshare</h2>
-        <!-- <img src="images/thesiren-screen.jpg" class="img-small" /> -->
       </a>
       <p>Sample homepage</p>
       <a href="http://dreams-mockup.s3-website-us-east-1.amazonaws.com/" target="_blank">
-        <!-- <img class="app-img" src="images/drop-shop.png" /> -->
-        <img src="images/dreamshare-screen.jpg" class="img-small" />
+        <img src="assets/images/dreamshare-screen.jpg" class="img-small" />
       </a>
       <ul class="description">
         <li>
@@ -159,9 +146,6 @@
         <li>
           Responsive design
         </li>
-        <!-- <li>
-          Imported Sketch files into Zeplin for fine tuning CSS values
-        </li> -->
       </ul>
       <p>
         <a href="https://github.com/missginski/dream-mockup" target="_blank">View on GitHub</a>
@@ -173,7 +157,7 @@
 			<h2 class="section-title">Dropshop - Express App</h2>
       <p>A fun take on a weather app. Uses the daily forecast to curate outfit suggestions</p>
       <a href="https://s3.amazonaws.com/kg-portfolio/images/drop-shop.png" target="_blank">
-        <img class="app-img" src="images/drop-shop.png" />
+        <img class="app-img" src="assets/images/drop-shop.png" />
       </a>
       <ul class="description">
         <li>
@@ -199,7 +183,7 @@
 			<h2 class="section-title">What’s Going On -- Rails App - group project</h2>
       <p>A Resource for people who want to learn about causes they can be a part of and events to attend</p>
       <a href="https://s3.amazonaws.com/kg-portfolio/images/go.png" target="_blank">
-        <img class="app-img" src="images/go.png" />
+        <img class="app-img" src="assets/images/go.png" />
       </a>
       <ul class="description">
         <li>
@@ -224,7 +208,7 @@
         <p><a href="https://github.com/missginski/war_of_cards" target="_blank">View on GitHub</a></p>
       </div>
       <a href="https://s3.amazonaws.com/kg-portfolio/images/cards.gif" target="_blank">
-        <img class="app-img" src="images/cards.gif" />
+        <img class="app-img" src="assets/images/cards.gif" />
       </a>
     </div>
 
@@ -234,6 +218,6 @@
       <a class="button my-button" href="https://s3.amazonaws.com/kg-portfolio/images/KristynG-res.pdf" target="_blank">resume</a>
     </div>
 
-	</div>
+	<!-- </div> -->
 </body>
 </html>
