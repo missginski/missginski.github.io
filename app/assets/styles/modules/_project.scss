@@ -1,0 +1,15 @@
+.project {
+	padding: 3.5rem 0;
+
+	&__title {
+		font-size: 2rem;
+	}
+
+	&__description {
+		font-size: 1.25rem;
+	}
+
+	&__img {
+		max-width: 640px;
+	}
+}

@@ -18,6 +18,9 @@ img {
 * {
   box-sizing: border-box; }
 
+a {
+  color: #2F2F2F; }
+
 .wrapper {
   padding-left: 18px;
   padding-right: 18px;
@@ -53,14 +56,38 @@ img {
         margin-right: 0; } }
 
 .button {
-  font-family: 'Rubik', sans-serif;
-  text-transform: uppercase;
   background-color: #F9F9F9;
-  padding: 16px 22px;
+  font-family: 'Rubik', sans-serif;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
-  margin-right: 2rem;
+  padding: 16px 22px;
+  margin: 2rem;
   border: 3px solid #2F2F2F;
   border-radius: 8px; }
+  .button:hover {
+    background-color: #2F2F2F;
+    color: #F9F9F9; }
+  @media (min-width: 576px) {
+    .button {
+      display: inline;
+      margin-left: .5rem; } }
 
 .btn-grp {
   padding: 2.5rem 0; }
+
+.project {
+  padding: 3.5rem 0; }
+  .project__title {
+    font-size: 2rem; }
+  .project__description {
+    font-size: 1.25rem; }
+  .project__img {
+    max-width: 640px; }
+
+.site-footer {
+  background-color: #474646;
+  text-align: center;
+  color: #F9F9F9;
+  padding: 1rem; }
