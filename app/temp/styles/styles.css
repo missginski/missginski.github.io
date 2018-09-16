@@ -17,3 +17,50 @@ img {
 
 * {
   box-sizing: border-box; }
+
+.wrapper {
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.large-hero {
+  margin: 4.5rem 0; }
+  @media (min-width: 576px) {
+    .large-hero {
+      margin: 8.5rem 0; } }
+  .large-hero__title {
+    font-size: 1.875rem; }
+    @media (min-width: 576px) {
+      .large-hero__title {
+        font-size: 3.5rem; } }
+  .large-hero__description {
+    font-size: 1.25rem; }
+    @media (min-width: 576px) {
+      .large-hero__description {
+        font-size: 1.75rem; } }
+  .large-hero__avatar-img {
+    border-radius: 100%; }
+  .large-hero__avatar {
+    max-width: 175px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 576px) {
+      .large-hero__avatar {
+        margin-left: 0;
+        margin-right: 0; } }
+
+.button {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  background-color: #F9F9F9;
+  padding: 16px 22px;
+  text-decoration: none;
+  margin-right: 2rem;
+  border: 3px solid #2F2F2F;
+  border-radius: 8px; }
+
+.btn-grp {
+  padding: 2.5rem 0; }
